@@ -11,8 +11,8 @@ The posterior concentrates on the truth (all 12 posterior means within ~2x).
 
 Reproducibility note: ABC-SMC is stochastic and the multicore sampler is not
 seeded for bit-for-bit reproducibility, so posterior means, shrinkage values,
-and the fine-grained parameter ranking will vary slightly run-to-run. At 200
-particles the 95% credible intervals are approximate and a few parameters may
+and the fine-grained parameter ranking will vary slightly run-to-run. At these
+particle counts the 95% credible intervals are approximate and a few parameters may
 not cover the truth on any given run (expected for a likelihood-free method at
 this particle count). The reproducible findings are qualitative: diffusion
 parameters (k_va, k_vr) are tightly pinned; binding/turnover parameters carry
