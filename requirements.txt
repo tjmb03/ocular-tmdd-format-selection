@@ -1,0 +1,22 @@
+# Core scientific stack
+numpy>=1.24,<3.0
+scipy>=1.10,<2.0
+pandas>=2.0,<3.0
+matplotlib>=3.6,<4.0
+
+# Sensitivity analysis
+SALib>=1.4,<2.0
+
+# Identifiability analyses
+jax>=0.4,<1.0
+jaxlib>=0.4,<1.0
+
+# Bayesian inference (ABC-SMC)
+pyabc>=0.12,<1.0
+
+# Optional: production Bayesian via Stan
+# cmdstanpy>=1.2
+# arviz>=0.16
+
+# Testing
+pytest>=7.0

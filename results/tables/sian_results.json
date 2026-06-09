@@ -1,0 +1,46 @@
+{
+  "scenario_A_Cv_only": {
+    "k_va": "NON-IDENTIFIABLE",
+    "k_av": "NON-IDENTIFIABLE",
+    "k_ao": "NON-IDENTIFIABLE",
+    "k_vr": "NON-IDENTIFIABLE",
+    "k_rv": "identifiable",
+    "k_on": "identifiable",
+    "k_off": "NON-IDENTIFIABLE",
+    "k_int": "NON-IDENTIFIABLE",
+    "k_syn": "NON-IDENTIFIABLE",
+    "k_deg": "identifiable",
+    "f_rec": "NON-IDENTIFIABLE",
+    "CL_p": "NON-IDENTIFIABLE"
+  },
+  "scenario_B_Cv_plus_TO": {
+    "k_va": "identifiable",
+    "k_av": "identifiable",
+    "k_ao": "identifiable",
+    "k_vr": "identifiable",
+    "k_rv": "identifiable",
+    "k_on": "identifiable",
+    "k_off": "identifiable",
+    "k_int": "identifiable",
+    "k_syn": "identifiable",
+    "k_deg": "identifiable",
+    "f_rec": "identifiable",
+    "CL_p": "NON-IDENTIFIABLE"
+  },
+  "parameters_tested": [
+    "k_va",
+    "k_av",
+    "k_ao",
+    "k_vr",
+    "k_rv",
+    "k_on",
+    "k_off",
+    "k_int",
+    "k_syn",
+    "k_deg",
+    "f_rec",
+    "CL_p"
+  ],
+  "parameters_rescued_by_TO": 8,
+  "method": "JAX autodiff Lie-derivative observability rank test"
+}

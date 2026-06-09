@@ -1,0 +1,4 @@
+format,predicted_t12_d,reference_drug,reference_t12_d,note
+naked,2.059,no direct benchmark (smaller than ranibizumab),,no direct benchmark
+fab,2.674,ranibizumab (~48 kDa Fab),2.51,+7% vs reference (within plausible range)
+fc,2.951,aflibercept (~115 kDa Fc-fusion),3.92,-25% vs reference (within plausible range)
