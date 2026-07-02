@@ -9,6 +9,13 @@
 > This repository is released under the [MIT License](LICENSE).
 > © 2026 Bo Ma (tjmb03). Reuse with attribution.
 
+## Companion repositories
+
+Three repos on one theme — **model-informed molecule selection**, using mechanistic PK/PD to choose between molecular designs before any clinical data exists:
+
+- [**bispecific-fih-dosability**](https://github.com/tjmb03/bispecific-fih-dosability) — a mechanistic first-in-human *dosability screen* for tumor-targeted bispecifics: does a dosable window exist between the productive-trimer shoulder and the occupancy ceiling, ranked by margin (MABEL / occupancy paradigm).
+- [**adc-therapeutic-index**](https://github.com/tjmb03/adc-therapeutic-index) — the two-analyte *therapeutic index* of a cytotoxic ADC: efficacy from conjugate exposure vs dose-limiting toxicity from free payload, ranked by index (toxicology / NOAEL paradigm).
+
 # Ocular TMDD Format Selection
 ### A PK/PD case study comparing molecular formats for an intravitreal biologic
 
